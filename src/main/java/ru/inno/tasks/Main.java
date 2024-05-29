@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Fractionable numProxy = Utility.Cache(new Fraction(1, 4));
         numProxy.doubleValue();
-        numProxy.setSum(5);
-        numProxy.setNum(2);
+        numProxy.setSum(6);
+        numProxy.setNum(4);
 
         numProxy.doubleValue();
-        numProxy.doubleValue();  // сработал
+        numProxy.doubleValue(); // сработал
         numProxy.doubleValue(); // молчит
         numProxy.setNum(5);
         numProxy.doubleValue(); // сработал

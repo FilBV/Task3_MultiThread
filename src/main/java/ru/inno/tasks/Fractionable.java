@@ -6,7 +6,7 @@ public interface Fractionable {
 
     void setDenum(int denum);
 
-    void setNumForTest(int num); // добавлено для проверки, чтобы сравнить с желаемым результатом  в CacheTest
+    void setNumForTest(int num);
 
     double multiplyValue();
 
